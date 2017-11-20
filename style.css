@@ -33,20 +33,19 @@ header {
   width: 100%;
 }
 
-.work
-{
-    display: table;
-    width: 100%;
-}
-
 .featured-work-title {
   margin: 0px;
   padding: 5px;
 }
 
-.work-insert {
-  display: table-cell;
+.work {
+  display: inline-block;
   margin: 0px;
+  width: 33%;
+}
+
+.work:nth-child(odd) {
+  padding: 0px 15px;
 }
 
 .work-image {
