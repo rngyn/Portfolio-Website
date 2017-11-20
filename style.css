@@ -1,0 +1,58 @@
+html {
+  max-width: 960px;
+  margin: auto;
+}
+
+header {
+  border-bottom: thick solid #7d97ad;
+  min-height: 80px;
+  padding: 5px;
+}
+
+.header-logo {
+  float: left;
+  max-height: 70px;
+}
+
+.header-title {
+  text-align: right;
+  margin: 0px;
+}
+
+.header-subtitle {
+  clear: right;
+  text-align: right;
+  margin: 0px;
+}
+
+.main {
+  margin: 25px 0px;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.work
+{
+    display: table;
+    width: 100%;
+}
+
+.featured-work-title {
+  margin: 0px;
+  padding: 5px;
+}
+
+.work-insert {
+  display: table-cell;
+  margin: 0px;
+}
+
+.work-image {
+  width: 100%;
+}
+
+.work-title {
+  text-align: center;
+}
